@@ -1,0 +1,24 @@
+.sticky-post {
+    .blog-details-content {
+        max-width: 480px;
+    }
+    .grid-blog-alternative {
+        &:nth-child(odd) {
+            .blog-details-content {
+                margin-left: auto;
+            }
+            .blog-details {
+                padding-left: 3.5rem;
+            }
+        }
+        &:nth-child(even) {
+            figure {
+                order: 1;
+            }
+            .blog-details {
+                order: 2;
+                padding-right: 3.5rem;
+            }
+        }
+    }
+}

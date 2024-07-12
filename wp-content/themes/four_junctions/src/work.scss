@@ -1,0 +1,38 @@
+.non-featured-post {
+    a {
+        h5 {
+            font-size: 20px;
+        }
+        &:nth-child(even) {
+            figure {
+                order: 2;
+            }
+        }
+    }
+}
+
+.work-grid {
+    aside {
+        ul {
+            position: sticky;
+            top: 0;
+            li {
+                a {
+                    letter-spacing: 1px;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+    .tab-content {
+        h5 {
+            font-size: 20px;
+        }
+        .tab-pane {
+            &:not(empty) {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+    }
+}

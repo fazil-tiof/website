@@ -1,0 +1,16 @@
+footer {
+    a {
+        color: #000;
+        &:visited {
+            color: #000;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    footer {
+        .container {
+            max-width: 1081px;
+        }
+    }
+}

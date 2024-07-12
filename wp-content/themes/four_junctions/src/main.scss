@@ -1,0 +1,49 @@
+/* Custom
+--------------------------------------------- */
+@import url(./header.scss);
+@import url(./typography.scss);
+@import url(./colors.scss);
+@import url(./footer.scss);
+@import url(./about.scss);
+@import url(./platform.scss);
+@import url(./people.scss);
+@import url(./home.scss);
+@import url(./work.scss);
+@import url(./blog.scss);
+
+
+
+* {
+    box-sizing: border-box;
+    transition: all .15s ease-out 0s;
+    font-family: "Inter", sans-serif, -apple-system, BlinkMacSystemFont;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    word-break: break-word;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #000;
+    min-height: initial;
+    &.post {
+        margin: 0;
+    }
+    &.page {
+        margin: 0;
+    }
+}
+
+a {
+    color: black;
+    &:active,
+    &:visited {
+        color: black;
+    }
+}
